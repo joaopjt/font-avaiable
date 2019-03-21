@@ -26,7 +26,7 @@ You can import the module with ES6 syntax too:
 
 ```javascript
 // const isFontAvaiable = require('font-avaiable');
-import isFontAvaiable from 'old-browser-detector';
+import isFontAvaiable from 'font-avaiable';
 
 isFontAvaiable('Comic Sans MS'); // Return `true` if font is avaiable.
 ```
@@ -36,7 +36,7 @@ isFontAvaiable('Comic Sans MS'); // Return `true` if font is avaiable.
 In first of all, fork the repo.
 
 After clone the fork, make sure of use node `v6.11.4`. Install the dependencies, and **rollup** globally.
-To build files, use the `rollup -c`.
+To build files, use the `rollup -c` or `npm run build`/`yarn build`.
 
 Then, make a pull request with a nice description of changes.
 

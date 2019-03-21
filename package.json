@@ -1,6 +1,6 @@
 {
   "name": "font-avaiable",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lightweight function for verify if a font is avaiable on client.",
   "keywords": ["font", "font-family", "avaiable", "verify", "detector", "vanilla"],
   "main": "dist/index.min.js",
