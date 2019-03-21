@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <title>Test</title>
+  </head>
+  <body>
+    <h2>A fonte "Comic Sans MS" está: <span id="status"></span></h2>
+  </body>
+  <script src="./fontavaiable.min.js"></script>
+  <script>
+    var statusHolder = document.querySelector('#status');
+
+    if (isFontAvaiable('Comic Sans MS')) {
+      statusHolder.innerHTML = "Disponivel.";
+    } else {
+      statusHolder.innerHTML = "Indisponivel.";
+    }
+  </script>
+</html>

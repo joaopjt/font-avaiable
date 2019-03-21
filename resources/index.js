@@ -7,15 +7,11 @@ export default function isFontAvaiable(font) {
 
   const blSize = context.measureText(text).width;
 
-  context.font = "72px '" + fontName + "', monospace";
+  context.font = "72px '" + font + "', monospace";
 
   const newSize = context.measureText(text).width;
 
-  delete canvas;
-
-  if (newSize == blSize) {
-    return false;
-  }
+  if (newSize == blSize) return false;
 
   return true;
 }
