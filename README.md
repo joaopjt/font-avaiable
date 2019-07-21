@@ -1,6 +1,6 @@
-# Old Browser Detector
+# Font Avaiable
 
-⚡ Lightweight code to verify if a font is avaiable on client
+⚡ Lightweight code to verify if a font is avaiable on client browser
 
 ## Getting Started
 
